@@ -51,17 +51,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "fb8e3bc4a2e612e9a374a77c2050eaf1a7d3e42e";
+    version = "9a64eaa930d2ba0dc17c4e18a384f9ffa5f39f9d";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "fb8e3bc4a2e612e9a374a77c2050eaf1a7d3e42e";
+      rev = "9a64eaa930d2ba0dc17c4e18a384f9ffa5f39f9d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dvewWVca6a7mOXklekt+rhMHP37wxdWbOuwEgEzzuWY=";
+      sha256 = "sha256-es6XdIIXdsUnm+xz8EdxfyNv0Iynuiyml3ibdjly5/8=";
     };
-    date = "2025-06-14";
+    date = "2025-06-27";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -106,28 +106,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "72b536f5633a4c08daa1cff45319fef2380ba712";
+    version = "390365e30f66779c5326b9052f734929de3def8f";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "72b536f5633a4c08daa1cff45319fef2380ba712";
+      rev = "390365e30f66779c5326b9052f734929de3def8f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+c5ZI7YZhiU3P1Or3YPBOPv/zUMfG3jn0Y6Ry9J1p9M=";
+      sha256 = "sha256-iErTFb/ONHb2ffjOleuXS9IbpgwEdnQfejhcKgtWKzY=";
     };
     date = "2025-06-27";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "d691914b9d7bf880777e924fd167fe26d5cd13c2";
+    version = "00575706a59c7c4fbe3171f208905f53053a58ff";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "d691914b9d7bf880777e924fd167fe26d5cd13c2";
+      rev = "00575706a59c7c4fbe3171f208905f53053a58ff";
       fetchSubmodules = false;
-      sha256 = "sha256-fELvN0RYKLJmNRhLKDmbybxKfdshrdv/Ct2ExabGScE=";
+      sha256 = "sha256-El6+JtJYqH0aBr20XYJgemUvBu0LKhRCD3TDLPAvf1s=";
     };
-    date = "2025-06-18";
+    date = "2025-06-28";
   };
 }
