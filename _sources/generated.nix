@@ -106,28 +106,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "dbdb8f6241f2aa7c689e3a589837ad84341128a1";
+    version = "b128bcf6ea8621f97ff605d835a4ab633adfcc3a";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "dbdb8f6241f2aa7c689e3a589837ad84341128a1";
+      rev = "b128bcf6ea8621f97ff605d835a4ab633adfcc3a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-11/xHhh7ifACThed2fmxdP6ENIIWYpMbth+rUO9V/HM=";
+      sha256 = "sha256-WXYegxUpiMRKjgWG7aB7hOwFV/MLt2sBnpf8a7/sbt0=";
     };
-    date = "2025-07-02";
+    date = "2025-07-07";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "1c588e3eb20b34d2527181a6c66db9d98134fff8";
+    version = "db4ebf1b2ecd49522ae8840158262146af80482d";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "1c588e3eb20b34d2527181a6c66db9d98134fff8";
+      rev = "db4ebf1b2ecd49522ae8840158262146af80482d";
       fetchSubmodules = false;
-      sha256 = "sha256-3foK2C6HBtegu6o+/sUesOE9NJ/ziXaQB6GCADACCp4=";
+      sha256 = "sha256-sw960dsoSpqFys/ZRhQFGkhc8qLm2Bpkw80fz0hPaZA=";
     };
-    date = "2025-07-03";
+    date = "2025-07-06";
   };
 }
