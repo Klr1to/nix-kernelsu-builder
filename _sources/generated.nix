@@ -51,17 +51,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "9034086ad4fd9392bb0d61d012774814ee795ba2";
+    version = "ee72b8e106e0f2d65b315a6487053cb67ad582d3";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "9034086ad4fd9392bb0d61d012774814ee795ba2";
+      rev = "ee72b8e106e0f2d65b315a6487053cb67ad582d3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-JmOacJ6o3bFdl0HveH+ncippISKLKfc3V39Li210xCg=";
+      sha256 = "sha256-YutBwMmB1BGMgkLhvnEKZbSwztFLQVQImeCyQsJmG9s=";
     };
-    date = "2025-07-11";
+    date = "2025-07-14";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -73,20 +73,20 @@
   };
   kernelsu-next = {
     pname = "kernelsu-next";
-    version = "v1.0.8";
+    version = "v1.0.9";
     src = fetchgit {
       url = "https://github.com/KernelSU-Next/KernelSU-Next.git";
-      rev = "v1.0.8";
+      rev = "v1.0.9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+wWu7IhmlpYR9amclpvKjrEXIMNL0j8dpz7FYyvN528=";
+      sha256 = "sha256-tNSNZQcpogTm/veYKCoA9Y5FrdsQSZCNgw+DzkuqN80=";
     };
   };
   kernelsu-next-revision-code = {
     pname = "kernelsu-next-revision-code";
-    version = "12701";
+    version = "12797";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=";
@@ -106,28 +106,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "54302192751ce04ccda39da250bdea8c4cca01d5";
+    version = "7ebd2ddd05f53957cf8f0ac4308ac0dee06f0262";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "54302192751ce04ccda39da250bdea8c4cca01d5";
+      rev = "7ebd2ddd05f53957cf8f0ac4308ac0dee06f0262";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-9eQl1+GSCkMQPp6xidHaQDz/ew5sf8bNjX9sw+/wTNk=";
+      sha256 = "sha256-GNUoZwhDIXooDZYhmDRDiBQPp1a/0qhqneHC7qqmk3Q=";
     };
-    date = "2025-07-07";
+    date = "2025-07-15";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "3132ad9bd710a77fbf5f124f8de2f38d4a5ee408";
+    version = "7d41f3d27b3ea0c13b6b138dca88278628239bde";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "3132ad9bd710a77fbf5f124f8de2f38d4a5ee408";
+      rev = "7d41f3d27b3ea0c13b6b138dca88278628239bde";
       fetchSubmodules = false;
-      sha256 = "sha256-YWyU33ZpmhCa2jTymZRFbBEPNQm3kxRDD8ZsbA2C7cU=";
+      sha256 = "sha256-1lw4T6MFw1eCUrjMHn/1WvCph2vUpmkU/pIY++7s+NE=";
     };
-    date = "2025-07-11";
+    date = "2025-07-14";
   };
 }
