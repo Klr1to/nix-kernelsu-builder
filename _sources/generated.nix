@@ -51,17 +51,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "ee72b8e106e0f2d65b315a6487053cb67ad582d3";
+    version = "6c61a8b7c73f81ce7220846c8b9b5487f94661e7";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "ee72b8e106e0f2d65b315a6487053cb67ad582d3";
+      rev = "6c61a8b7c73f81ce7220846c8b9b5487f94661e7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-YutBwMmB1BGMgkLhvnEKZbSwztFLQVQImeCyQsJmG9s=";
+      sha256 = "sha256-dZVpSezXdmIyfuIWSEmeXTNG1NfgI5skrL8V7GgMpNU=";
     };
-    date = "2025-07-14";
+    date = "2025-07-18";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -106,27 +106,27 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "9bf56c792753a2e2eb15b7aa75895b56b4843f52";
+    version = "c7b6ab066ebd83684e3d8cc3bc88436ef3896ce9";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "9bf56c792753a2e2eb15b7aa75895b56b4843f52";
+      rev = "c7b6ab066ebd83684e3d8cc3bc88436ef3896ce9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XBBjhcF9GXOgC0KhwlI9N+FRr9U97pHhjsb/997nVWk=";
+      sha256 = "sha256-BpT1loBceq8TwMcK8HG1rjEdjCBcJugvhjIChzrEUiQ=";
     };
-    date = "2025-07-17";
+    date = "2025-07-18";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "b984451666ff8af82a3d182b044e5e71ebfa6f7f";
+    version = "e86401f50d555fc7f08ce3e910ce327272c22072";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "b984451666ff8af82a3d182b044e5e71ebfa6f7f";
+      rev = "e86401f50d555fc7f08ce3e910ce327272c22072";
       fetchSubmodules = false;
-      sha256 = "sha256-rQqOKGpI+ZN21kI7pmCTgrOEwUb3hcpIoN09TWnVJ6A=";
+      sha256 = "sha256-Gqyf+BMlh3fhjPk8wl3eqI0JO0+Dtag+zMzk67erIgE=";
     };
     date = "2025-07-18";
   };
