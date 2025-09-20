@@ -1,6 +1,6 @@
 {
     "anykernel-kernelsu": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-05-17",
         "extract": null,
         "name": "anykernel-kernelsu",
@@ -21,7 +21,7 @@
         "version": "ac6360f6fc1895cbd218246f12a771f63d0e5e4f"
     },
     "anykernel-osm0sis": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-05-18",
         "extract": null,
         "name": "anykernel-osm0sis",
@@ -42,7 +42,7 @@
         "version": "6f88dff82b786e879b255a8e1523547c4f62d031"
     },
     "gcc-aarch64-linux-android": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2020-02-22",
         "extract": null,
         "name": "gcc-aarch64-linux-android",
@@ -63,7 +63,7 @@
         "version": "5797d7f622321e734558bd3372a9ab5ad6e6a48e"
     },
     "gcc-arm-linux-androideabi": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2019-11-25",
         "extract": null,
         "name": "gcc-arm-linux-androideabi",
@@ -84,7 +84,7 @@
         "version": "3ecb542702c2ca0e502533c3f6d02f0f06f584f1"
     },
     "kernelsu-main": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-09-13",
         "extract": null,
         "name": "kernelsu-main",
@@ -104,7 +104,7 @@
         "version": "78e3ec18748acdc5427c4b981342b8296860b895"
     },
     "kernelsu-main-revision-code": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "kernelsu-main-revision-code",
@@ -119,7 +119,7 @@
         "version": "12081"
     },
     "kernelsu-next": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "kernelsu-next",
@@ -139,7 +139,7 @@
         "version": "v1.0.9"
     },
     "kernelsu-next-revision-code": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "kernelsu-next-revision-code",
@@ -154,7 +154,7 @@
         "version": "12797"
     },
     "oneplus-ace3-lineageos-22_1": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-02-23",
         "extract": null,
         "name": "oneplus-ace3-lineageos-22_1",
@@ -175,7 +175,7 @@
         "version": "e4621a167b4cd806178eb76f1c481d8ee07a0e7a"
     },
     "susfs-android14-5_15": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-09-13",
         "extract": null,
         "name": "susfs-android14-5_15",
@@ -195,7 +195,7 @@
         "version": "1aa0b12ce6aaf4f8a5dd4836d9d47967efa7949b"
     },
     "wildplus-kernel-patches": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-09-18",
         "extract": null,
         "name": "wildplus-kernel-patches",
