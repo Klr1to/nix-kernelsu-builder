@@ -78,20 +78,20 @@
   };
   kernelsu-next = {
     pname = "kernelsu-next";
-    version = "v1.1.0";
+    version = "v1.1.1";
     src = fetchgit {
       url = "https://github.com/KernelSU-Next/KernelSU-Next.git";
-      rev = "v1.1.0";
+      rev = "v1.1.1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-H0BCuqMJHqiFtK/JZD77z/dkpc8pk1yMIxdZsV0qZY8=";
+      sha256 = "sha256-h99YriWugjS4AuAJzMFm2AN+1Dt1BigooKUYMzVCXL4=";
     };
   };
   kernelsu-next-revision-code = {
     pname = "kernelsu-next-revision-code";
-    version = "12862";
+    version = "12851";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=";
