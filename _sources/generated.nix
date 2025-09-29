@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "37ef0d27067d3d7e7bf07a80547a1949864789c4";
+    version = "38663f1ad75272cbc08b3dbc8cadb8471f4692ba";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "37ef0d27067d3d7e7bf07a80547a1949864789c4";
+      rev = "38663f1ad75272cbc08b3dbc8cadb8471f4692ba";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-OlE3rICXUDhjjKVjCdJn85zeQJauKgNwtgXV3C/FGfw=";
+      sha256 = "sha256-5TdvMKIz6U6Bhxoa9fnfbiC7rGhCIAYLEzrEKLYDkSg=";
     };
-    date = "2025-09-25";
+    date = "2025-09-29";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
