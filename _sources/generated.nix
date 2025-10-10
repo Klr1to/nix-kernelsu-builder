@@ -73,7 +73,7 @@
     version = "12081";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=";
+      sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
     };
   };
   kernelsu-next = {
@@ -94,7 +94,7 @@
     version = "12851";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-6o+sfGX7WJsNU1YPUlH3T56bJDR43Laz6nm142RJyNk=";
+      sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
     };
   };
   oneplus-ace3-lineageos-22_1 = {
