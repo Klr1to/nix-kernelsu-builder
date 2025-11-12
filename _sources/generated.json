@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2025-11-10",
+        "date": "2025-11-12",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "dd5a5f9d68908ac193fa1d63f28cfbedb42e21e3",
-            "sha256": "sha256-HsA0HhOZjoq8CQS8RXmpMFE3nhqu0s8/Mq+s/RbN/Hc=",
+            "rev": "a5d826e71c1eeb237c2320bfd1011446731dc95f",
+            "sha256": "sha256-vgk+tM8P8kC4ZRTGS5KYPEKQ1hfFQ9VPp3nMJXvsdDM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "dd5a5f9d68908ac193fa1d63f28cfbedb42e21e3"
+        "version": "a5d826e71c1eeb237c2320bfd1011446731dc95f"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
