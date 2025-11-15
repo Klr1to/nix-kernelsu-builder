@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2025-11-14",
+        "date": "2025-11-15",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ab3840a3d20b6151d2f32876881fedddf75faadc",
-            "sha256": "sha256-tlzaOkg054/rpdPQ40/knHOBEQ3tzYgEdqY6JzaxVZg=",
+            "rev": "5f872ee678fa5c4ef81676e3350a1ed65bb0de44",
+            "sha256": "sha256-EqaTp1kV/DR+Q9t0NVg2Pl3EzpPX8OSScST+CbkM07Q=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "ab3840a3d20b6151d2f32876881fedddf75faadc"
+        "version": "5f872ee678fa5c4ef81676e3350a1ed65bb0de44"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -116,7 +116,7 @@
             "type": "url",
             "url": "https://example.com"
         },
-        "version": "22001"
+        "version": "22084"
     },
     "kernelsu-next": {
         "cargoLock": null,
@@ -196,7 +196,7 @@
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2025-11-12",
+        "date": "2025-11-15",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "e84b69c492e7f22838e2a83689348a011704dd08",
-            "sha256": "sha256-TpfkiAz3J4SecDtvSaDnecGEFSM65zn2XDkPQoNbqGE=",
+            "rev": "59ce6239c3faed5213fb212a8cd58ac7a5de6876",
+            "sha256": "sha256-Ek80sOeNOuVcfxjcBbySy06cg9DdW9spYtIiUOb1Ea8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e84b69c492e7f22838e2a83689348a011704dd08"
+        "version": "59ce6239c3faed5213fb212a8cd58ac7a5de6876"
     }
 }
