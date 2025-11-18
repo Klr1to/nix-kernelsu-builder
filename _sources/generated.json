@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2025-11-17",
+        "date": "2025-11-18",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4b0513812623530d7ecd050a09fb00f2d6ffaf1b",
-            "sha256": "sha256-nFQKXEn9Vc9e0P478yd9s2v9fp/F2f/ex/t5A+9C+0U=",
+            "rev": "4a18921bc00eb83ba3e60bec5672dfbc4d2bd9a2",
+            "sha256": "sha256-XjwnZWAcEEqFJatfkhQ5bvgBRZ4ChV2a7eQ58q0K9SQ=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "4b0513812623530d7ecd050a09fb00f2d6ffaf1b"
+        "version": "4a18921bc00eb83ba3e60bec5672dfbc4d2bd9a2"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -176,7 +176,7 @@
     },
     "susfs-android14-5_15": {
         "cargoLock": null,
-        "date": "2025-11-17",
+        "date": "2025-11-18",
         "extract": null,
         "name": "susfs-android14-5_15",
         "passthru": null,
@@ -186,13 +186,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3b421e9e70d45b97715c02560bb6df78d57b0d27",
-            "sha256": "sha256-T5DL+/9JmYHMFOY2B5g7UnYBsNpzXIqO8fUuaApfyNg=",
+            "rev": "9e60f524cad760e163ce940e88fe4771787c47cc",
+            "sha256": "sha256-xe8l7Ki0sE+m9MJJArKnUrNb2i4OB/+bRQZXl5/nrbA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "3b421e9e70d45b97715c02560bb6df78d57b0d27"
+        "version": "9e60f524cad760e163ce940e88fe4771787c47cc"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
