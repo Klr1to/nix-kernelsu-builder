@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2025-11-18",
+        "date": "2025-11-19",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4a18921bc00eb83ba3e60bec5672dfbc4d2bd9a2",
-            "sha256": "sha256-XjwnZWAcEEqFJatfkhQ5bvgBRZ4ChV2a7eQ58q0K9SQ=",
+            "rev": "7f0bc411b6941075b243986618df48908ad39e16",
+            "sha256": "sha256-9NXRnjBTguHi+VmYMqih0tx2bJq4n2eKA2QAwbjKJic=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "4a18921bc00eb83ba3e60bec5672dfbc4d2bd9a2"
+        "version": "7f0bc411b6941075b243986618df48908ad39e16"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -176,7 +176,7 @@
     },
     "susfs-android14-5_15": {
         "cargoLock": null,
-        "date": "2025-11-18",
+        "date": "2025-11-19",
         "extract": null,
         "name": "susfs-android14-5_15",
         "passthru": null,
@@ -186,17 +186,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9e60f524cad760e163ce940e88fe4771787c47cc",
-            "sha256": "sha256-xe8l7Ki0sE+m9MJJArKnUrNb2i4OB/+bRQZXl5/nrbA=",
+            "rev": "b8b328cd17f106e9dba47dbff69dad6bc33b744b",
+            "sha256": "sha256-G6Q7NKK7DUML+H5v5z3v2gzmPtmluowTCjsgA3CSAXE=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "9e60f524cad760e163ce940e88fe4771787c47cc"
+        "version": "b8b328cd17f106e9dba47dbff69dad6bc33b744b"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2025-11-15",
+        "date": "2025-11-19",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "59ce6239c3faed5213fb212a8cd58ac7a5de6876",
-            "sha256": "sha256-Ek80sOeNOuVcfxjcBbySy06cg9DdW9spYtIiUOb1Ea8=",
+            "rev": "34bac2307ea2fa91540bb99389d5049d9dc7486a",
+            "sha256": "sha256-4/Z8BHSsRX67RlbJtvfGt1nN97cL4+jNTZjfsSgFHPw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "59ce6239c3faed5213fb212a8cd58ac7a5de6876"
+        "version": "34bac2307ea2fa91540bb99389d5049d9dc7486a"
     }
 }
