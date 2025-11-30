@@ -56,21 +56,21 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "c276b7345d046188de7bee13a6540adcd9493755";
+    version = "0dc4c0a8c67e223169208225ec9a6d679e1003ae";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "c276b7345d046188de7bee13a6540adcd9493755";
+      rev = "0dc4c0a8c67e223169208225ec9a6d679e1003ae";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-eymJO6JyAIAwMla9MMJjaZUlYC2YozxXI9OyEw2G/hU=";
+      sha256 = "sha256-Mc3SSBgVGDEtxw2xndSXi/Wme0XbPrYocBhAedRAFu8=";
     };
-    date = "2025-11-29";
+    date = "2025-11-30";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
-    version = "22091";
+    version = "32179";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
@@ -111,27 +111,27 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "c6f57a5779c19c56f51e11a8ef809defa87f8533";
+    version = "5713683feee28bf05774e3eec0f08e212f0d0bee";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "c6f57a5779c19c56f51e11a8ef809defa87f8533";
+      rev = "5713683feee28bf05774e3eec0f08e212f0d0bee";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Hg0HzcwPFEUFxLchk/7JELoRAeK5qr1JiNTQ3xPcvHw=";
+      sha256 = "sha256-G0MWzsT7N1vYlZqqSnenGnRkBWLqhsUjJWKy9cirx2o=";
     };
-    date = "2025-11-27";
+    date = "2025-11-30";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "2efe90a1889ec624db3d799f765dfa29ecc68e73";
+    version = "4804099d046be071af3dbf2766c89e333584cfae";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "2efe90a1889ec624db3d799f765dfa29ecc68e73";
+      rev = "4804099d046be071af3dbf2766c89e333584cfae";
       fetchSubmodules = false;
-      sha256 = "sha256-bKvBh0AcoDoDYITLo+pyokx7+c5CuYJY/JGYo5SPYxQ=";
+      sha256 = "sha256-ES0LkKL5YQX4Pgah95ZjvpXzqO+RAYTyR6cNUDE4yaE=";
     };
     date = "2025-11-28";
   };
