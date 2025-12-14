@@ -56,15 +56,15 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "f83e77301991f67c16a19481a2833a415a26512d";
+    version = "be63f0a2c0cb8684cd1839bffbf2937dd8364be0";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "f83e77301991f67c16a19481a2833a415a26512d";
+      rev = "be63f0a2c0cb8684cd1839bffbf2937dd8364be0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Duc1X3oUfLtxdHRherMlXZygeR4+3304Au4Wit9DXPA=";
+      sha256 = "sha256-PBEJYDPesoVtXhl9gO2vptjuggvykH6ZXu3gIfbNWOI=";
     };
     date = "2025-12-13";
   };
@@ -78,20 +78,20 @@
   };
   kernelsu-next = {
     pname = "kernelsu-next";
-    version = "v1.1.1";
+    version = "v3.0.0";
     src = fetchgit {
       url = "https://github.com/KernelSU-Next/KernelSU-Next.git";
-      rev = "v1.1.1";
+      rev = "v3.0.0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-h99YriWugjS4AuAJzMFm2AN+1Dt1BigooKUYMzVCXL4=";
+      sha256 = "sha256-VmmDo7d54TcVAMeFIctz+F/dSQb2YmSAbiYo5vT4vrw=";
     };
   };
   kernelsu-next-revision-code = {
     pname = "kernelsu-next-revision-code";
-    version = "12851";
+    version = "32857";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
@@ -125,14 +125,14 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "2ca270bc2edfb59be3a8b9319f21652bc99f7872";
+    version = "b45b8d9677c38db4821d984b004ec44ba7b53523";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "2ca270bc2edfb59be3a8b9319f21652bc99f7872";
+      rev = "b45b8d9677c38db4821d984b004ec44ba7b53523";
       fetchSubmodules = false;
-      sha256 = "sha256-w/COL3klxcHayPDn/z3y0OlZpKjku29JLbtlNc+LQhc=";
+      sha256 = "sha256-N8poWbSQgTXYGPK8cBVa3AU2VTlgr1m4IIo0nLPiEm8=";
     };
-    date = "2025-12-06";
+    date = "2025-12-14";
   };
 }
