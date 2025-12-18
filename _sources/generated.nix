@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "91ed4eaf670fa86ea42b383fbe9721eadc171461";
+    version = "0cdeb96613e4e6bcec89962fbda2b36510aa88f9";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "91ed4eaf670fa86ea42b383fbe9721eadc171461";
+      rev = "0cdeb96613e4e6bcec89962fbda2b36510aa88f9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-pYG2Qjd/Mmj+WWNlA1jf+ex9MZ5dc6O2taVgD+hUwaw=";
+      sha256 = "sha256-/jz00YF/PNYPyAAIAF1KRlkZWwIj+mMOaSK8kfLmtVI=";
     };
-    date = "2025-12-16";
+    date = "2025-12-17";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -111,28 +111,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "50bf5b5eea755910fbb5b695d359e77f4571740a";
+    version = "a7ba375f4adb8955a66538c76fa1c01946c6e03a";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "50bf5b5eea755910fbb5b695d359e77f4571740a";
+      rev = "a7ba375f4adb8955a66538c76fa1c01946c6e03a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Pz6cCkrRTDuraoa9eR16phBBjaP851hQc67Xkni3Y5I=";
+      sha256 = "sha256-mde4YO+iaVibHtyGhFa75ehVLDeSfu23TO0vuYfwnwE=";
     };
     date = "2025-12-17";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "926741026bd7884df9e1af0d7d6793d6ce249969";
+    version = "75c673531381c3ca296a7e26da47dadffa6b56cf";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "926741026bd7884df9e1af0d7d6793d6ce249969";
+      rev = "75c673531381c3ca296a7e26da47dadffa6b56cf";
       fetchSubmodules = false;
-      sha256 = "sha256-9p9UzjY+YiwWaXpmwCJW4pF/Yfp/b5mqOvYson2gRcQ=";
+      sha256 = "sha256-Vl7aYeSaTzS4i39LR/YtXbKNT8l1okA0D1hjr365K7Q=";
     };
-    date = "2025-12-16";
+    date = "2025-12-17";
   };
 }
