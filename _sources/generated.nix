@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "7316d8b29301848e53878899a139f03bc624f6b7";
+    version = "521856e716d6d2241c8c4ad51da8cc03d5dc2535";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "7316d8b29301848e53878899a139f03bc624f6b7";
+      rev = "521856e716d6d2241c8c4ad51da8cc03d5dc2535";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-0C4DkUhwvF0t2OzjxFpijfZm5PaUcTGu4iALKuPGE98=";
+      sha256 = "sha256-/553y9X+XLtRlEq5Rvv3zndV0YT5nMTfDqhFjz0u5Jw=";
     };
-    date = "2025-12-30";
+    date = "2025-12-31";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -111,28 +111,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "d4e36d955396c648054080c0a90e087f3e2d57e6";
+    version = "2972691b40abff21c3ed90e5a38097e45f21c6ce";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "d4e36d955396c648054080c0a90e087f3e2d57e6";
+      rev = "2972691b40abff21c3ed90e5a38097e45f21c6ce";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-DRVKc3NMO7NL2Y+q62w6P7ZD4740BtNB2tZYbcAE7Bw=";
+      sha256 = "sha256-/Jw55COQ9RVMWyZLBzEk5nt/e2vOAPBzk/5UdHWPpq0=";
     };
-    date = "2025-12-29";
+    date = "2025-12-31";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "469716e15e1d269d2085e478f06aa748d72baf48";
+    version = "41861195777057b3cd095c9c1927f14789f23565";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "469716e15e1d269d2085e478f06aa748d72baf48";
+      rev = "41861195777057b3cd095c9c1927f14789f23565";
       fetchSubmodules = false;
       sha256 = "sha256-8VldygH151txTaL+HGMx6hS34Bgigh6U/G8N1KA33Aw=";
     };
-    date = "2025-12-28";
+    date = "2025-12-30";
   };
 }
