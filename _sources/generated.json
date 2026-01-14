@@ -196,7 +196,7 @@
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2026-01-09",
+        "date": "2026-01-13",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "c9ae138c345b77ad1929adacde05f5a4fa3f95fc",
-            "sha256": "sha256-LWVQORoujhoPQFReX3H2uzWV1Bqo5Vdfa7PhkwL83n8=",
+            "rev": "f5f4107c4ed3c807e9f337171dbeceaabb357936",
+            "sha256": "sha256-JyHiEF/E6dyrAUQBDtyLQhf171Go3pcVFoG54xd1IW0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c9ae138c345b77ad1929adacde05f5a4fa3f95fc"
+        "version": "f5f4107c4ed3c807e9f337171dbeceaabb357936"
     }
 }
