@@ -22,7 +22,7 @@
     },
     "anykernel-osm0sis": {
         "cargoLock": null,
-        "date": "2025-05-18",
+        "date": "2026-01-30",
         "extract": null,
         "name": "anykernel-osm0sis",
         "passthru": null,
@@ -34,12 +34,12 @@
             "name": null,
             "owner": "osm0sis",
             "repo": "AnyKernel3",
-            "rev": "6f88dff82b786e879b255a8e1523547c4f62d031",
-            "sha256": "sha256-0BRHE7O3rcgLa6wg8GVPu9R0MDsA87D6jGbA7bHZ7N0=",
+            "rev": "71e5f4486984d52965c51b17b9ed2cc4ed16cab0",
+            "sha256": "sha256-CxCjeyckxSBNHhCZhqgg6EF9DvhYK6XlsevVG5V2P/A=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6f88dff82b786e879b255a8e1523547c4f62d031"
+        "version": "71e5f4486984d52965c51b17b9ed2cc4ed16cab0"
     },
     "gcc-aarch64-linux-android": {
         "cargoLock": null,
@@ -196,7 +196,7 @@
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2026-01-29",
+        "date": "2026-01-30",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "360c0db067fe3f505dce40b3c144edf8f65f8159",
-            "sha256": "sha256-obeyJKpXhQVYACMgKGC3JvSJmq9Bbx/8xoR7SN50Pok=",
+            "rev": "bb7d634f18e488f0bdda0619c95a54d6611027c0",
+            "sha256": "sha256-yUD+DfuFHSeDBkUL2d0UHPKSE04P9DgKQ9mpKyBG1bk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "360c0db067fe3f505dce40b3c144edf8f65f8159"
+        "version": "bb7d634f18e488f0bdda0619c95a54d6611027c0"
     }
 }

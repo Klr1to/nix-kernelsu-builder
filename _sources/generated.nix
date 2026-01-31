@@ -20,15 +20,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "6f88dff82b786e879b255a8e1523547c4f62d031";
+    version = "71e5f4486984d52965c51b17b9ed2cc4ed16cab0";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "6f88dff82b786e879b255a8e1523547c4f62d031";
+      rev = "71e5f4486984d52965c51b17b9ed2cc4ed16cab0";
       fetchSubmodules = false;
-      sha256 = "sha256-0BRHE7O3rcgLa6wg8GVPu9R0MDsA87D6jGbA7bHZ7N0=";
+      sha256 = "sha256-CxCjeyckxSBNHhCZhqgg6EF9DvhYK6XlsevVG5V2P/A=";
     };
-    date = "2025-05-18";
+    date = "2026-01-30";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";
@@ -125,14 +125,14 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "360c0db067fe3f505dce40b3c144edf8f65f8159";
+    version = "bb7d634f18e488f0bdda0619c95a54d6611027c0";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "360c0db067fe3f505dce40b3c144edf8f65f8159";
+      rev = "bb7d634f18e488f0bdda0619c95a54d6611027c0";
       fetchSubmodules = false;
-      sha256 = "sha256-obeyJKpXhQVYACMgKGC3JvSJmq9Bbx/8xoR7SN50Pok=";
+      sha256 = "sha256-yUD+DfuFHSeDBkUL2d0UHPKSE04P9DgKQ9mpKyBG1bk=";
     };
-    date = "2026-01-29";
+    date = "2026-01-30";
   };
 }
