@@ -56,21 +56,21 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "8ef6423b8e094a8fd29e4551a8f367d40d212173";
+    version = "92aff05fba3b0f2d031fdaac83cd9aecdfeac7f6";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "8ef6423b8e094a8fd29e4551a8f367d40d212173";
+      rev = "92aff05fba3b0f2d031fdaac83cd9aecdfeac7f6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-wJsnIXbVCOOTwbg0GLtEj0Gs1IdxAWvnTNKsE2sHLNg=";
+      sha256 = "sha256-kN6GI7xWA53uHluB5QQUlX7PS4u5ICCZyRK2AbPIFKM=";
     };
     date = "2026-02-04";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
-    version = "32179";
+    version = "32302";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
@@ -111,17 +111,17 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "d618bb25a40d2c6836031e6932d76ee93f831043";
+    version = "c4001fe09387ec429d6ee8b6781a1be19f542c1b";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "d618bb25a40d2c6836031e6932d76ee93f831043";
+      rev = "c4001fe09387ec429d6ee8b6781a1be19f542c1b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4KA38+yMj7e2Kl5kVvN+KFle9VcHIxKW9dZjqpq2YGY=";
+      sha256 = "sha256-I4nA6HgchhTC8xuqUQTjv5CFMmuxCxfw4lAGFyhkUSo=";
     };
-    date = "2026-02-04";
+    date = "2026-02-05";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
