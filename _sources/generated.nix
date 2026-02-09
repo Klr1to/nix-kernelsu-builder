@@ -20,15 +20,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "71e5f4486984d52965c51b17b9ed2cc4ed16cab0";
+    version = "63c886e3b379d74c4fc0412b78896132b0702881";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "71e5f4486984d52965c51b17b9ed2cc4ed16cab0";
+      rev = "63c886e3b379d74c4fc0412b78896132b0702881";
       fetchSubmodules = false;
-      sha256 = "sha256-CxCjeyckxSBNHhCZhqgg6EF9DvhYK6XlsevVG5V2P/A=";
+      sha256 = "sha256-NLZG2beOls6qNE2+tbrpZ6pF4JYATP2U+0xfpMhOhhI=";
     };
-    date = "2026-01-30";
+    date = "2026-02-08";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";
@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "717614d89759304892dc152ac67b5b2ac5bca469";
+    version = "975d09a34f2267b2fb8be32b624a43cb4b978349";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "717614d89759304892dc152ac67b5b2ac5bca469";
+      rev = "975d09a34f2267b2fb8be32b624a43cb4b978349";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-DpZ6FkdL1euC1U5kcDg2SB1CvhKRvB0ob+0inJ8S0Ao=";
+      sha256 = "sha256-Vg1B/VJNBoqaaSNXV8+WpDroy6/t23KJMlZUsFXM1/w=";
     };
-    date = "2026-02-06";
+    date = "2026-02-09";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -125,14 +125,14 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "7a0b8575326e14fc16b4062bfd35ae2e4506b7bd";
+    version = "07712873708cc3d6d1efb26426cb73c32ba67950";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "7a0b8575326e14fc16b4062bfd35ae2e4506b7bd";
+      rev = "07712873708cc3d6d1efb26426cb73c32ba67950";
       fetchSubmodules = false;
-      sha256 = "sha256-Prk6e3iQYnQb0etp/EsjB+g7z8PgA3RdupXzw8dZExc=";
+      sha256 = "sha256-5dH8k14ElIDnTZFAbmGk6UJ3gsHSeZqBywYi9/gq6Po=";
     };
-    date = "2026-02-07";
+    date = "2026-02-08";
   };
 }
