@@ -73,7 +73,7 @@
     version = "32302";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
+      sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
     };
   };
   kernelsu-next = {
@@ -94,7 +94,7 @@
     version = "32967";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=";
+      sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
     };
   };
   oneplus-ace3-lineageos-22_1 = {
@@ -125,14 +125,14 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "19b24f074b186a8045d622f7a2e9eabdc7499e0f";
+    version = "9bf80a4b58ddfafc1a94e73ac923bc87a622efb2";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "19b24f074b186a8045d622f7a2e9eabdc7499e0f";
+      rev = "9bf80a4b58ddfafc1a94e73ac923bc87a622efb2";
       fetchSubmodules = false;
-      sha256 = "sha256-9U/n/C2oIk+l2F0FltdzKIOIiK3c01Dlbz1V3NaYHv0=";
+      sha256 = "sha256-99g7dUfGXf5Fb0oie4zT8aAYd3Nm+0MCtlMdxNOfjYw=";
     };
-    date = "2026-02-09";
+    date = "2026-02-11";
   };
 }

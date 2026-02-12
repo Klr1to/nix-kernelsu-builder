@@ -112,7 +112,7 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=",
+            "sha256": "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=",
             "type": "url",
             "url": "https://example.com"
         },
@@ -147,7 +147,7 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-b1Y1A182rVALT8S7eBa7cu9VlOG8rkT6B0xemI/EwP4=",
+            "sha256": "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=",
             "type": "url",
             "url": "https://example.com"
         },
@@ -196,7 +196,7 @@
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2026-02-09",
+        "date": "2026-02-11",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "19b24f074b186a8045d622f7a2e9eabdc7499e0f",
-            "sha256": "sha256-9U/n/C2oIk+l2F0FltdzKIOIiK3c01Dlbz1V3NaYHv0=",
+            "rev": "9bf80a4b58ddfafc1a94e73ac923bc87a622efb2",
+            "sha256": "sha256-99g7dUfGXf5Fb0oie4zT8aAYd3Nm+0MCtlMdxNOfjYw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "19b24f074b186a8045d622f7a2e9eabdc7499e0f"
+        "version": "9bf80a4b58ddfafc1a94e73ac923bc87a622efb2"
     }
 }
