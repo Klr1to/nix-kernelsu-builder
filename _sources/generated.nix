@@ -20,15 +20,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "63c886e3b379d74c4fc0412b78896132b0702881";
+    version = "dca9dc370838d919d56c1f59ec78b27a14a72c68";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "63c886e3b379d74c4fc0412b78896132b0702881";
+      rev = "dca9dc370838d919d56c1f59ec78b27a14a72c68";
       fetchSubmodules = false;
-      sha256 = "sha256-NLZG2beOls6qNE2+tbrpZ6pF4JYATP2U+0xfpMhOhhI=";
+      sha256 = "sha256-J/8RR7xh1fCZDiOSscm1cDWPBU5yFkXLjOHwZxG47Ow=";
     };
-    date = "2026-02-08";
+    date = "2026-02-25";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";
@@ -78,20 +78,20 @@
   };
   kernelsu-next = {
     pname = "kernelsu-next";
-    version = "v3.0.1";
+    version = "v3.1.0";
     src = fetchgit {
       url = "https://github.com/KernelSU-Next/KernelSU-Next.git";
-      rev = "v3.0.1";
+      rev = "v3.1.0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-1XS7auSOiIT8O3Aa+tGW8eQoCyAoaLgSCIxutuXKBgs=";
+      sha256 = "sha256-QtQQcYFZViLG9m84PHgVhJ2I+HV+GSBH93Y5h7GzFYg=";
     };
   };
   kernelsu-next-revision-code = {
     pname = "kernelsu-next-revision-code";
-    version = "32967";
+    version = "33024";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
