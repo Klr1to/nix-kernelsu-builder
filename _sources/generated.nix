@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "6484caf138ace68a99105e1934c37d90a4ab8ec8";
+    version = "2c1d81585f10746757c33b325e61a82db3f9de80";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "6484caf138ace68a99105e1934c37d90a4ab8ec8";
+      rev = "2c1d81585f10746757c33b325e61a82db3f9de80";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-7MRoMAZfDoIrgdlDxo5HTFTj31LKdW5qAmnGEgxPYuI=";
+      sha256 = "sha256-7U4AhlKROGDcb7KuUQTl65beWL7nVDqIWR6aK8C3rKw=";
     };
-    date = "2026-03-08";
+    date = "2026-03-09";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -111,27 +111,27 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "696bd3b3dd03538cba939c9ba614742f200cb5d4";
+    version = "6716ad3928a6f715f30e16a4b243a6e1a67be1cb";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "696bd3b3dd03538cba939c9ba614742f200cb5d4";
+      rev = "6716ad3928a6f715f30e16a4b243a6e1a67be1cb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PkPeeNbciBoSPLScAWIQZN9pgoWaoFKUuS8O+2bKThg=";
+      sha256 = "sha256-7jD4EThSvNk5woUVUQFOq2NS4DQhOW7LEO4UdYwdbYs=";
     };
     date = "2026-03-09";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "0a6c9ef77003cc387fede9b22d8566c9a8af3f02";
+    version = "3ed632fb2324836230f576d43bc64916a5333bf3";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "0a6c9ef77003cc387fede9b22d8566c9a8af3f02";
+      rev = "3ed632fb2324836230f576d43bc64916a5333bf3";
       fetchSubmodules = false;
-      sha256 = "sha256-FPOXVjv0mayLYQwA3ytiTcTcHgYDgJ1u9khOLEA1oC0=";
+      sha256 = "sha256-JSmYnyhQAOhE1/NyF/36u/nb+XtRZFDzQmxpeIVqBhQ=";
     };
     date = "2026-03-09";
   };
