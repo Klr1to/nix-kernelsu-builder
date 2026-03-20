@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "3bda2444c6d5638563af1e83581576fcff7dc69b";
+    version = "62fa92b7d1cc873018e0bb5261bf7f134d77f327";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "3bda2444c6d5638563af1e83581576fcff7dc69b";
+      rev = "62fa92b7d1cc873018e0bb5261bf7f134d77f327";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-V2jjtEcLL70H3zQJ5qkubnmF0hLetovpRoV5TZgen9E=";
+      sha256 = "sha256-yujHq+YEUG0LMihNMP9p9pMmIBiGS4BnwXkjcUbshjg=";
     };
-    date = "2026-03-17";
+    date = "2026-03-20";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -111,28 +111,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "6e7e11649121a47327655483fd1ba27961c0e76b";
+    version = "6dde2194da87ada075fe38016b0e2b54a9196e91";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "6e7e11649121a47327655483fd1ba27961c0e76b";
+      rev = "6dde2194da87ada075fe38016b0e2b54a9196e91";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-mddoLGiCghOqV1yAIX4x0jvbGPFrghFaZ893cQCFeJE=";
+      sha256 = "sha256-b8OYr5Qm6ED8p0663DNQpCr2BCML290qNQLcQPqXW64=";
     };
-    date = "2026-03-18";
+    date = "2026-03-20";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "a886231716e60281c7db7e59af538ebd2b62b4cb";
+    version = "039b1f97fd08d9b20c855e6d861d00fa8c6fb2ef";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "a886231716e60281c7db7e59af538ebd2b62b4cb";
+      rev = "039b1f97fd08d9b20c855e6d861d00fa8c6fb2ef";
       fetchSubmodules = false;
-      sha256 = "sha256-gYFQPkHYjS+x4+o4upL9QYJGE6UQ4i45BH5XyrI3OYI=";
+      sha256 = "sha256-zb787+qlKl5k4EXLrgnY4fDXuit4dNoja460vAT40ck=";
     };
-    date = "2026-03-18";
+    date = "2026-03-20";
   };
 }
