@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d7bd5f88ba410091008013f7d8dc1ee7375d8aaa",
-            "sha256": "sha256-VNhZQD+WSeJMqI2wGqJaUH15F357uPEM8ta+6TcEzLg=",
+            "rev": "50e1d17e291655e949b888b0909a8a95c2fd2ae2",
+            "sha256": "sha256-Ud8USldbIiAMzvnfsHpwUFe7CxShxRGMywJc2Blxa50=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "d7bd5f88ba410091008013f7d8dc1ee7375d8aaa"
+        "version": "50e1d17e291655e949b888b0909a8a95c2fd2ae2"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -116,7 +116,7 @@
             "type": "url",
             "url": "https://example.com"
         },
-        "version": "32302"
+        "version": "32389"
     },
     "kernelsu-next": {
         "cargoLock": null,
@@ -176,7 +176,7 @@
     },
     "susfs-android14-5_15": {
         "cargoLock": null,
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "extract": null,
         "name": "susfs-android14-5_15",
         "passthru": null,
@@ -186,13 +186,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d0c4f27dccdf34ab40f9ce3dd96d4f9c31d098ba",
-            "sha256": "sha256-+rFM0W8ykeTSq7YZq0XuvuB+V/FJlugItCIo1dw0VGI=",
+            "rev": "a91b85767325d445405b3df314c1d0d6cc2c4bbd",
+            "sha256": "sha256-S7R5MRCqRHnTwP73kcVqI+dXGIUaUwXetIIFCMCE2kI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "d0c4f27dccdf34ab40f9ce3dd96d4f9c31d098ba"
+        "version": "a91b85767325d445405b3df314c1d0d6cc2c4bbd"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
