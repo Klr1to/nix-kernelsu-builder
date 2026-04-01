@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "397d3f227d6ab6561e24974b227b13df47615dae",
-            "sha256": "sha256-aRt+F+wjA01tLQuo8I2F5DMkuTZXX3j5bkGOsqxsIJg=",
+            "rev": "9e6de0ad8877566d47601a78fe4a99ca93b7b39e",
+            "sha256": "sha256-8OxcqHwmGA/DD4WHQSz+NEdlan+onYeoVITc2NR5y20=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "397d3f227d6ab6561e24974b227b13df47615dae"
+        "version": "9e6de0ad8877566d47601a78fe4a99ca93b7b39e"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -186,13 +186,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "551fc66b0c1c2496882a0a2e7c945d1082abb1cb",
-            "sha256": "sha256-5gEekWPIX992ZK04Pfg4B81sH8k2n6fPMm31/S3b3Jg=",
+            "rev": "601e6e233b913ccfb28efe4e0d176b9a606e2869",
+            "sha256": "sha256-sIr7+j8OEvucyvXs3S/22U6ytfbYjyNf2xRNdBLlwp4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "551fc66b0c1c2496882a0a2e7c945d1082abb1cb"
+        "version": "601e6e233b913ccfb28efe4e0d176b9a606e2869"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
