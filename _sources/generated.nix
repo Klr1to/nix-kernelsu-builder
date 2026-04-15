@@ -78,20 +78,20 @@
   };
   kernelsu-next = {
     pname = "kernelsu-next";
-    version = "v3.1.0";
+    version = "v3.2.0";
     src = fetchgit {
       url = "https://github.com/KernelSU-Next/KernelSU-Next.git";
-      rev = "v3.1.0";
+      rev = "v3.2.0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-QtQQcYFZViLG9m84PHgVhJ2I+HV+GSBH93Y5h7GzFYg=";
+      sha256 = "sha256-9ffRhyCM8KirXsvYDrhcH8SS+Zjsk59t7o6Nol7AYK0=";
     };
   };
   kernelsu-next-revision-code = {
     pname = "kernelsu-next-revision-code";
-    version = "33024";
+    version = "33129";
     src = fetchurl {
       url = "https://example.com";
       sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
@@ -125,14 +125,14 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "89cffb7c6dac3148b81edb8e62d268555669732a";
+    version = "4540f58d80cf187ea56300f6f4a6b3def4ca4412";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "89cffb7c6dac3148b81edb8e62d268555669732a";
+      rev = "4540f58d80cf187ea56300f6f4a6b3def4ca4412";
       fetchSubmodules = false;
-      sha256 = "sha256-IHuskaBtMT0uiFN42l0GIMUkP0BaNah2iQc0EaFdysg=";
+      sha256 = "sha256-a6C/P233UvXQD8ct4goAWJShlUpWGos6QU3bcF+k97E=";
     };
-    date = "2026-04-13";
+    date = "2026-04-14";
   };
 }
