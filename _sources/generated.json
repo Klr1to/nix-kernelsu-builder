@@ -85,7 +85,7 @@
     },
     "kernelsu-main": {
         "cargoLock": null,
-        "date": "2026-04-15",
+        "date": "2026-04-17",
         "extract": null,
         "name": "kernelsu-main",
         "passthru": null,
@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "123040998c4042971a865f0cfe9ec401559a77b1",
-            "sha256": "sha256-9fjwAQrmmu8b21MQe1lmiz87YC8OHQ84DQRlmUfMJjY=",
+            "rev": "99739a524efbcf0285557086187b3702206e012c",
+            "sha256": "sha256-UT8vWl6rJ28VBnQLNmjwHCywbRNrfxHUSbgTWFvWHCY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "123040998c4042971a865f0cfe9ec401559a77b1"
+        "version": "99739a524efbcf0285557086187b3702206e012c"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -196,7 +196,7 @@
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "6ac23b65150f5f505018403361779fa7a8a728b0",
-            "sha256": "sha256-X94lXujL8ioh7KH74DzR4vcvITZBgKMvORlH9fmmGFg=",
+            "rev": "17167135bd9c4bf3e6cdd429e1876af29f36fb37",
+            "sha256": "sha256-BARKWaz2pBamrFygGVljsfsRZobLJpjXioqoi9HqHdw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6ac23b65150f5f505018403361779fa7a8a728b0"
+        "version": "17167135bd9c4bf3e6cdd429e1876af29f36fb37"
     }
 }
