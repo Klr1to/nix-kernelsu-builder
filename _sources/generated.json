@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "baf88adf2621f6dd7ab64fdf146ded1171670a6b",
-            "sha256": "sha256-wb2LsGjYqksXTFZncgnYt7rXKNcbVKUgfG0D1TIpoME=",
+            "rev": "e50e3b06f2bdd58b92fbe37ccec186de6d12fbbe",
+            "sha256": "sha256-Lxrt7gG1Qbd08hp/xpil8Fx38MpWu7L443ProhG14+E=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "baf88adf2621f6dd7ab64fdf146ded1171670a6b"
+        "version": "e50e3b06f2bdd58b92fbe37ccec186de6d12fbbe"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
@@ -176,7 +176,7 @@
     },
     "susfs-android14-5_15": {
         "cargoLock": null,
-        "date": "2026-04-24",
+        "date": "2026-04-25",
         "extract": null,
         "name": "susfs-android14-5_15",
         "passthru": null,
@@ -186,13 +186,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a0e0cea0c15fa66d7dd45f76f3c7794ea40a1335",
-            "sha256": "sha256-Iki5HBWmBDRwGhfpuaRFE447BPeSJO3pY9lendFvJGQ=",
+            "rev": "8b961d5789224a404abe5cc33ad547a46c457044",
+            "sha256": "sha256-3qj1JwbQVsAJ8V80vMZOnciQ+EXFcoAjF0b+/TQawhA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "a0e0cea0c15fa66d7dd45f76f3c7794ea40a1335"
+        "version": "8b961d5789224a404abe5cc33ad547a46c457044"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "7f974145069377297fff1488ebf8df2d5b69ba6e",
-            "sha256": "sha256-nD5VSr3yc56IHGrw71mMJguu6WDEXPyCVeO94ZBlRM8=",
+            "rev": "9222108ea87bc7677441267dfddabb7a9ceb4f3c",
+            "sha256": "sha256-hUkYSYVcLOu++wmrJcDSdCq95TuY0zo+3zMndToFz5E=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "7f974145069377297fff1488ebf8df2d5b69ba6e"
+        "version": "9222108ea87bc7677441267dfddabb7a9ceb4f3c"
     }
 }
