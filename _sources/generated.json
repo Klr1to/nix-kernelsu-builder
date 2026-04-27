@@ -186,17 +186,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "7c8d2070389a8ca5c356a78bc03929646ec9367b",
-            "sha256": "sha256-xmTELazru+KpSB7hhgv8qVhAfSFd/xJLHQdaeL5dpkI=",
+            "rev": "6e7016d0caea71a94b5097e35e0b8b623ec61627",
+            "sha256": "sha256-Bw7+S8qZEuHJ+SaahNpcqgAeBT3gdr0hjyM2zYgshgM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "7c8d2070389a8ca5c356a78bc03929646ec9367b"
+        "version": "6e7016d0caea71a94b5097e35e0b8b623ec61627"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
-        "date": "2026-04-24",
+        "date": "2026-04-27",
         "extract": null,
         "name": "wildplus-kernel-patches",
         "passthru": null,
@@ -208,11 +208,11 @@
             "name": null,
             "owner": "WildPlusKernel",
             "repo": "kernel_patches",
-            "rev": "9222108ea87bc7677441267dfddabb7a9ceb4f3c",
-            "sha256": "sha256-hUkYSYVcLOu++wmrJcDSdCq95TuY0zo+3zMndToFz5E=",
+            "rev": "d47bb06267c4515127bdd60d8bcce08c2f50796a",
+            "sha256": "sha256-hHN+ES+AkG1tuwTnX+i7vxTxMp37y7B1fx3I45fmG38=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "9222108ea87bc7677441267dfddabb7a9ceb4f3c"
+        "version": "d47bb06267c4515127bdd60d8bcce08c2f50796a"
     }
 }
