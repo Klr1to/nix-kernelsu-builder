@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "f9c7823e3e9a6034c236a3b275132878cbae7f9f";
+    version = "3f388ef137c78e1ca0c92c0ada3b8717cdcc4302";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "f9c7823e3e9a6034c236a3b275132878cbae7f9f";
+      rev = "3f388ef137c78e1ca0c92c0ada3b8717cdcc4302";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-sbR3uhV7Oa1BrcK+QEEFUXLVZ+EWOizCamZXfhjlycg=";
+      sha256 = "sha256-qMcJezLlCOJcAaSiOZOEDglX/gcN+R+mIWeINryXqBE=";
     };
-    date = "2026-05-10";
+    date = "2026-05-11";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
@@ -111,28 +111,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "16a22b6a608b3f124c64f70829657871eee3af37";
+    version = "b5b98ac61b7a5c30a30d843eb972c8273d21067f";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "16a22b6a608b3f124c64f70829657871eee3af37";
+      rev = "b5b98ac61b7a5c30a30d843eb972c8273d21067f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-CBVvAhenr15QxhQPfYpaWqnMWbnUWy2USFyltHlMZns=";
+      sha256 = "sha256-eFkR1gu77IpYtdjIY2D5p8AOqpBN4Koin1N7rFv0Kh8=";
     };
-    date = "2026-05-10";
+    date = "2026-05-12";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "a94b1142c9e310505c5043c0eeca8f1342ee41c3";
+    version = "c298f1d065f147b87f1fb821aabbb3752bf6f0ab";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "a94b1142c9e310505c5043c0eeca8f1342ee41c3";
+      rev = "c298f1d065f147b87f1fb821aabbb3752bf6f0ab";
       fetchSubmodules = false;
-      sha256 = "sha256-tl6E5/SqrWCcweTcXPfDq1G1Cb0Sc+XRm5iKPw1ronU=";
+      sha256 = "sha256-m44L4G4QBrAqnxO/VNHRPJs366E6rkGG9VYleAcqmV0=";
     };
-    date = "2026-05-10";
+    date = "2026-05-11";
   };
 }
