@@ -73,7 +73,7 @@
     version = "32457";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
+      sha256 = "sha256-/2ep12TWojZ6GHc05pf2pTIX25ohwQHUEKETyocaKZ0=";
     };
   };
   kernelsu-next = {
@@ -94,7 +94,7 @@
     version = "33129";
     src = fetchurl {
       url = "https://example.com";
-      sha256 = "sha256-+5HXWmu0MHh6YbCuxeN09YADDyh44WE+q1ymMQ97u5o=";
+      sha256 = "sha256-/2ep12TWojZ6GHc05pf2pTIX25ohwQHUEKETyocaKZ0=";
     };
   };
   oneplus-ace3-lineageos-22_1 = {
@@ -111,17 +111,17 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "5c9fb44015bd1d4ac83fdc7b9835ef081433100b";
+    version = "4ac80af5209cefba567acfa04c8f9bc0ededd027";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "5c9fb44015bd1d4ac83fdc7b9835ef081433100b";
+      rev = "4ac80af5209cefba567acfa04c8f9bc0ededd027";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-m58Vt5q/esb2N2FzCp7r7OMIndwXN2IjGH9dMbvg0/o=";
+      sha256 = "sha256-7nDGJoB28m7Zo1+LPY5+Gfd6stDk+9OG2u02MnmUdeo=";
     };
-    date = "2026-06-02";
+    date = "2026-06-09";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
