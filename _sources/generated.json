@@ -95,13 +95,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f3dcb849846cf8d699b9d9df573740a50868b043",
-            "sha256": "sha256-9BMiyIXz6mFqiP3zJFgtzk69EbpTlV3BkkfigxBf6t8=",
+            "rev": "b0bc817b4e966aa6aa830834eaf6ef765d821d40",
+            "sha256": "sha256-70I/UvKGcsR42yJfyD1jFeuY4XcDbCidUVPdqbNfIdE=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/tiann/KernelSU.git"
         },
-        "version": "f3dcb849846cf8d699b9d9df573740a50868b043"
+        "version": "b0bc817b4e966aa6aa830834eaf6ef765d821d40"
     },
     "kernelsu-main-revision-code": {
         "cargoLock": null,
