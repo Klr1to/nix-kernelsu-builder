@@ -56,15 +56,15 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "09c6d09aaa73008f5c797de593c25e77fe88c945";
+    version = "af9e5f58ef62297865da98eebf5c6429298fa92d";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "09c6d09aaa73008f5c797de593c25e77fe88c945";
+      rev = "af9e5f58ef62297865da98eebf5c6429298fa92d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4I07slc+BW5cPru+UoIQ8yg455ZxEkOw8CbzAN3b7GA=";
+      sha256 = "sha256-wPOQFubXzvGYnt34o3D4fDEj7BjFBbRuqkEBFTc9Hdo=";
     };
     date = "2026-07-06";
   };
@@ -111,28 +111,28 @@
   };
   susfs-android14-5_15 = {
     pname = "susfs-android14-5_15";
-    version = "ecd76b933eba9d8e31b5978fa913198fd423dd92";
+    version = "999cd40113c3fc91f26e77f152415b9183c00913";
     src = fetchgit {
       url = "https://gitlab.com/simonpunk/susfs4ksu.git";
-      rev = "ecd76b933eba9d8e31b5978fa913198fd423dd92";
+      rev = "999cd40113c3fc91f26e77f152415b9183c00913";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-2kbwuXUt6XJl5JXK5g1iRG8EWx+ytFVnWvlfAuUNSQ8=";
+      sha256 = "sha256-jcD6Oi9ILQNFzP8khr2+kXVNKguNKI6HwETSiOUOFyc=";
     };
-    date = "2026-07-06";
+    date = "2026-07-07";
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "aaaf89639daedac270b7e17e4200d664ca4ef525";
+    version = "cf05f73f7c82e85c00b4665c3ae4ac913d991eb1";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "aaaf89639daedac270b7e17e4200d664ca4ef525";
+      rev = "cf05f73f7c82e85c00b4665c3ae4ac913d991eb1";
       fetchSubmodules = false;
-      sha256 = "sha256-0yuCIW4gpT+i4e4CH9p2lqnflFDIzpj9TRRm41HzuvM=";
+      sha256 = "sha256-edB5fHD4oprE/kxNAy9J7OPyKh0Ti1RdBKsnPyTvAFU=";
     };
-    date = "2026-07-01";
+    date = "2026-07-07";
   };
 }
