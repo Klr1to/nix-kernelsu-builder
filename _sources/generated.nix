@@ -125,13 +125,13 @@
   };
   wildplus-kernel-patches = {
     pname = "wildplus-kernel-patches";
-    version = "cf05f73f7c82e85c00b4665c3ae4ac913d991eb1";
+    version = "6e92514f445e69a4fcad5637ddedc3736ea5df2b";
     src = fetchFromGitHub {
       owner = "WildPlusKernel";
       repo = "kernel_patches";
-      rev = "cf05f73f7c82e85c00b4665c3ae4ac913d991eb1";
+      rev = "6e92514f445e69a4fcad5637ddedc3736ea5df2b";
       fetchSubmodules = false;
-      sha256 = "sha256-edB5fHD4oprE/kxNAy9J7OPyKh0Ti1RdBKsnPyTvAFU=";
+      sha256 = "sha256-NYQyEIkukVZIMu+aE9pEWdaaxQNFacbCCJQqclFRrwg=";
     };
     date = "2026-07-07";
   };
