@@ -176,7 +176,7 @@
     },
     "susfs-android14-5_15": {
         "cargoLock": null,
-        "date": "2026-07-12",
+        "date": "2026-07-20",
         "extract": null,
         "name": "susfs-android14-5_15",
         "passthru": null,
@@ -186,13 +186,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "841412d1f3eae63605979099714e6cf3866457de",
-            "sha256": "sha256-4wP0s2oLwt1u9kzTTsHe+iwqzmlpdiZ2ZAaFGAVWgDU=",
+            "rev": "01835f797ac678580e8ed2b391dcb261c6cd5373",
+            "sha256": "sha256-sICr8V60Gb7Zqsc0BtOxf5AZyryIYd1iEjxuZhLwCGo=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/simonpunk/susfs4ksu.git"
         },
-        "version": "841412d1f3eae63605979099714e6cf3866457de"
+        "version": "01835f797ac678580e8ed2b391dcb261c6cd5373"
     },
     "wildplus-kernel-patches": {
         "cargoLock": null,
