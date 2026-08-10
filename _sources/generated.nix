@@ -20,15 +20,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "1c9a500dd4aa8081952523126e97eb155aed941b";
+    version = "e4b1bb25ca2aabcfd57f694a5998d87130701b71";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "1c9a500dd4aa8081952523126e97eb155aed941b";
+      rev = "e4b1bb25ca2aabcfd57f694a5998d87130701b71";
       fetchSubmodules = false;
-      sha256 = "sha256-lADQ+Fyo5kX+At2O5xnBOs8R9XIctQS2GlLlT/bfWew=";
+      sha256 = "sha256-wJhniOS3Obg6/eU42p4nVhv1SSGitPsSia7OWUWcsEQ=";
     };
-    date = "2026-07-04";
+    date = "2026-08-09";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";
@@ -56,17 +56,17 @@
   };
   kernelsu-main = {
     pname = "kernelsu-main";
-    version = "5018d57a49da27ae9d717c362ab0fd1526c54a15";
+    version = "4a5f431127bb360db30088377c4374538c8d1692";
     src = fetchgit {
       url = "https://github.com/tiann/KernelSU.git";
-      rev = "5018d57a49da27ae9d717c362ab0fd1526c54a15";
+      rev = "4a5f431127bb360db30088377c4374538c8d1692";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Tm+zNBUr4ozW4WvGqu46sP2Q/N6A45ZsbdQIMHwxPJU=";
+      sha256 = "sha256-OLFoAsnamqM7kA8LrLpV/ryQbV0AJdgkiXiJT7IWT90=";
     };
-    date = "2026-08-09";
+    date = "2026-08-10";
   };
   kernelsu-main-revision-code = {
     pname = "kernelsu-main-revision-code";
