@@ -20,15 +20,15 @@
   };
   anykernel-osm0sis = {
     pname = "anykernel-osm0sis";
-    version = "c072981836cd3ee46ad52a5f2cba76ecb927cb1b";
+    version = "08e9d1281f38019efcf8818e18525e55e679046f";
     src = fetchFromGitHub {
       owner = "osm0sis";
       repo = "AnyKernel3";
-      rev = "c072981836cd3ee46ad52a5f2cba76ecb927cb1b";
+      rev = "08e9d1281f38019efcf8818e18525e55e679046f";
       fetchSubmodules = false;
-      sha256 = "sha256-N+MDEfWsKm5RhKyduRhs4tou0Qyii7ntibxBnC1qk4c=";
+      sha256 = "sha256-A4T+LRb42p+GrFyl3LFra5jhqp0wGaWHkkm7GfdVwgQ=";
     };
-    date = "2026-10-25";
+    date = "2026-10-26";
   };
   gcc-aarch64-linux-android = {
     pname = "gcc-aarch64-linux-android";

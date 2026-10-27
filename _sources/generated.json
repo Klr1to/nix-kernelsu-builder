@@ -22,7 +22,7 @@
     },
     "anykernel-osm0sis": {
         "cargoLock": null,
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "extract": null,
         "name": "anykernel-osm0sis",
         "passthru": null,
@@ -34,12 +34,12 @@
             "name": null,
             "owner": "osm0sis",
             "repo": "AnyKernel3",
-            "rev": "c072981836cd3ee46ad52a5f2cba76ecb927cb1b",
-            "sha256": "sha256-N+MDEfWsKm5RhKyduRhs4tou0Qyii7ntibxBnC1qk4c=",
+            "rev": "08e9d1281f38019efcf8818e18525e55e679046f",
+            "sha256": "sha256-A4T+LRb42p+GrFyl3LFra5jhqp0wGaWHkkm7GfdVwgQ=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c072981836cd3ee46ad52a5f2cba76ecb927cb1b"
+        "version": "08e9d1281f38019efcf8818e18525e55e679046f"
     },
     "gcc-aarch64-linux-android": {
         "cargoLock": null,
